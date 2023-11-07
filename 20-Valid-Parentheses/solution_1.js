@@ -8,8 +8,10 @@ var isValid = function (s) {
   //in the end return a boolian for the stack length
 
   let stack = [];
+
+  array = [a,b,c]
   let map = {
-    '(': ')',
+    '(': '[]',
     '{': '}',
     '[': ']',
   };
